@@ -48,3 +48,6 @@
 
 /datum/round_event_control/operative
 	tags = list(TAG_MEDIUM, TAG_OPFOR_ONLY)
+
+/datum/round_event_control/fleshmind
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_CHAOTIC, TAG_MEDIUM)
