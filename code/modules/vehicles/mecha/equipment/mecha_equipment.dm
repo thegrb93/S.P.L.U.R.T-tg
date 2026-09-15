@@ -69,9 +69,7 @@
 		if("detach")
 			if(detachable)
 				chassis.ui_selected_module_index = null
-				if(action_type & NOT_ABLE_TO_REMOVE_FROM_MECHA) //SPLURT EDIT
-				return //SPLURT EDIT
-			detach(get_turf(src))
+				detach(get_turf(src))
 			. = TRUE
 		if("toggle")
 			if(can_be_toggled)

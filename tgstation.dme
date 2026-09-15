@@ -595,7 +595,6 @@
 #include "code\__DEFINES\~~~splurt_defines\jobs.dm"
 #include "code\__DEFINES\~~~splurt_defines\keybinding.dm"
 #include "code\__DEFINES\~~~splurt_defines\lewd_defines.dm"
-#include "code\__DEFINES\~~~splurt_defines\mecha.dm"
 #include "code\__DEFINES\~~~splurt_defines\mobs.dm"
 #include "code\__DEFINES\~~~splurt_defines\ore_silo.dm"
 #include "code\__DEFINES\~~~splurt_defines\plug13.dm"

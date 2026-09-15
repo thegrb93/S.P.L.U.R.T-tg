@@ -3,7 +3,7 @@
 	name = "clock mech weapon"
 	color = rgb(190, 135, 0)
 	icon_state = "mecha_laser"
-	action_type = NOT_ABLE_TO_REMOVE_FROM_MECHA
+	detachable = FALSE
 	harmful = TRUE
 
 /obj/item/mecha_parts/mecha_equipment/weapon/clock/bow_single_shot
@@ -18,7 +18,7 @@
 	desc = "A small device that constantly re-adjusts any out of place gears in a mech."
 	color = rgb(190, 135, 0)
 	energy_drain = 0 //we will see if an energy drain is needed
-	action_type = NOT_ABLE_TO_REMOVE_FROM_MECHA
+	detachable = FALSE
 	health_boost = 1 //should really just buff the normal repair droid up to this, its really bad right now
 	repairable_damage = list(MECHA_INT_FIRE, MECHA_INT_CONTROL_LOST)
 
@@ -26,7 +26,7 @@
 	name = "Clockwork Armor Booster"
 	desc = "A large clump of gears that somehow help protect a mech against all forms of attack."
 	color = rgb(190, 135, 0)
-	action_type = NOT_ABLE_TO_REMOVE_FROM_MECHA
+	detachable = FALSE
 	icon_state = "mecha_abooster_proj"
 	armor_mod = /datum/armor/mecha_equipment_mixed_boost
 
